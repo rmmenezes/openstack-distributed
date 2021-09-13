@@ -1,0 +1,18 @@
+#################################
+#           bullseye            #
+#################################
+# sorce: /etc/apt/sources.list
+
+deb http://deb.debian.org/debian/ bullseye main
+deb-src http://deb.debian.org/debian/ bullseye main
+
+deb http://security.debian.org/debian-security bullseye-security main
+deb-src http://security.debian.org/debian-security bullseye-security main
+
+deb http://deb.debian.org/debian/ bullseye-updates main
+deb-src http://deb.debian.org/debian/ bullseye-updates main
+
+# Pacotes Openstack Wallaby
+# https://wiki.debian.org/OpenStack
+deb http://osbpo.debian.net/osbpo bullseye-wallaby-backports main
+deb http://osbpo.debian.net/osbpo bullseye-wallaby-backports-nochange main

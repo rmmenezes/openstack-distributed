@@ -1,0 +1,18 @@
+127.0.0.1       localhost
+
+
+10.0.0.11 controller
+203.0.113.11 controller-api
+
+10.0.0.21 compute
+203.0.113.21 compute-api
+
+10.0.0.31 block-storage
+
+10.0.0.41 object-storage
+
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
